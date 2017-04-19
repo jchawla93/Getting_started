@@ -1,0 +1,47 @@
+{
+  "name": "Getting_started",
+  "scripts": {
+  },
+  "env": {
+    "AMAZON_CLIENT_ID": {
+      "required": true
+    },
+    "APP_DOMAIN": {
+      "required": true
+    },
+    "AUTH_PASSWORD": {
+      "required": true
+    },
+    "AUTH_USER": {
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_ROLE_ARN": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    },
+    "MOMENT_TZ": {
+      "required": true
+    },
+    "S3_BUCKET_NAME": {
+      "required": true
+    },
+    "S3_IMAGE_PREFIX": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
